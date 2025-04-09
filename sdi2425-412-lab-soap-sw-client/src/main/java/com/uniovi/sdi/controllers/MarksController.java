@@ -29,4 +29,9 @@ public class MarksController {
         model.addAttribute("markList", marks);
         return "marks/list";
     }
+
+    @RequestMapping("/prueba")
+    public String getPrueba(Model model) {
+        return "marks/prueba";
+    }
 }
